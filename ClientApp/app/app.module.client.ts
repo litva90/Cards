@@ -2,8 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+
 import { sharedConfig } from './app.module.shared';
 
+import { MdDialogModule } from '@angular/material';
 
 @NgModule({
     bootstrap: sharedConfig.bootstrap,
@@ -12,6 +14,7 @@ import { sharedConfig } from './app.module.shared';
         BrowserModule,
         FormsModule,
         HttpModule,
+        MdDialogModule,
         ...sharedConfig.imports
     ],
     providers: [

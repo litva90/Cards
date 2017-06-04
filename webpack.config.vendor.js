@@ -32,6 +32,7 @@ module.exports = (env) => {
                 'event-source-polyfill',
                 'jquery',
                 'zone.js',
+                'font-awesome/css/font-awesome.css'
             ]
         },
         output: {
